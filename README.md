@@ -18,7 +18,7 @@
 3. **Start the app**
 
    ```bash
-   npx start
+   npm start
    ```
 
 In the output, you'll find options to open the app in:
