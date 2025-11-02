@@ -1,50 +1,98 @@
-# Welcome to your Expo app 👋
+# 🌸 Welcome to our SkInLove Expo app !! 🌸
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Get Started
 
-## Get started
+1. **Clone the repositiory**
 
-1. Install dependencies
+   ```bash
+   git clone https://github.com/wlaszkiewicz/skinlove.git
+   cd skinlove
+   ```
+
+2. **Install dependencies**
 
    ```bash
    npm install
    ```
 
-2. Start the app
+3. **Start the app**
 
    ```bash
-   npx expo start
+   npx start
    ```
 
-In the output, you'll find options to open the app in a
+In the output, you'll find options to open the app in:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS) or open the web version.
+
+- [Expo Go](https://expo.dev/go) !!! - use this one preferably !
+- [Development build](https://docs.expo.dev/develop/development-builds/introduction/)
 - [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
 - [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
 You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+---
 
-When you're ready, run:
+# 🌸 SkInLove 🌸
 
-```bash
-npm run reset-project
-```
+> Your smart skincare tracker. Your skin, your love, your routine.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+SkInLove is a smart, AI-powered skincare companion designed to help users understand their skin, discover the perfect products, and maintain a consistent, personalized skincare routine.
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## 📝 About
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Many people struggle to understand their skin type, choose suitable products, and keep consistent routines.
+**SkInLove** simplifies skincare decision-making with:
 
-## Join the community
+- AI-powered skin analysis from a photo
+- Personalized skincare recommendations
+- Ingredient insights and alerts
+- Customizable daily routines with reminders
 
-Join our community of developers creating universal apps.
+This is a **work-in-progress roadmap**, and here’s what we have planned!
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+## 🚀 High Priority Features
+
+- [ ] User registration and login (email/password)
+- [ ] Data sync across devices for logged-in users
+- [ ] Take or upload photo for AI skin analysis
+- [ ] Manual skin info input via survey (type, preferences, sensitivity)
+- [ ] Display identified skin type and main concerns (e.g., acne, dryness, redness)
+- [ ] Adjust skin goals (e.g., hydration, acne control)
+- [ ] Recommend skincare products based on skin type, goals, and analysis
+- [ ] Create and customize a skincare routine
+- [ ] Show ingredient list and analysis for each product
+- [ ] Search products by name or brand
+- [ ] Routine reminders/notifications
+- [ ] Track daily completion of skincare steps (checklist or streak system)
+
+---
+
+## ✨ Medium Priority Features
+
+- [ ] Recommend products with a price filter
+- [ ] Progress dashboard to view historical skin analysis
+- [ ] Save “favorite” products
+- [ ] Ingredient conflict detector
+- [ ] AI chat assistant for skincare questions & product suggestions
+- [ ] Connect to community reviews
+- [ ] Dark/light mode
+- [ ] Integrate external APIs (Sephora, INCI databases)
+- [ ] Product "empties" & expiration tracker
+
+---
+
+## 🌱 Low Priority / Nice-to-Have Features
+
+- [ ] Educational pop-ups/tooltips explaining skincare terms & ingredients
+- [ ] Gamification: streaks, badges, rewards for consistency
+- [ ] Suggest affordable or cruelty-free "dupes"
+- [ ] Log daily lifestyle factors (water, sleep, stress, diet)
+- [ ] Analyze environmental data (humidity, pollution) for routine adjustments
+- [ ] Export routine reports
+- [ ] Track menstrual cycle and suggest routine changes
